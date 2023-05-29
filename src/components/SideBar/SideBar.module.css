@@ -1,0 +1,54 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  overflow: scroll;
+  z-index: 100;
+  transition: transform 0.25s ease-in-out;
+  transform: translateX(100%);
+
+  background: #ffffff;
+  box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+}
+
+@media screen and (min-width: 720px) {
+  .root {
+    width: 306px;
+    transform: translateX(0);
+  }
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}
+
+.titleText {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+
+  letter-spacing: 0.01em;
+}
+
+.addText {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+
+  letter-spacing: -0.01em;
+
+  color: #838383;
+}
+
+.navListWrap {
+  flex-grow: 1;
+  margin-bottom: 40px;
+}

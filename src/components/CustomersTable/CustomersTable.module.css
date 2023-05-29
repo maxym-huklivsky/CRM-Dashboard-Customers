@@ -1,0 +1,40 @@
+.overflow {
+  overflow: auto;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.table th {
+  padding: 15px 50px 15px 0;
+
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  border-bottom: 1px solid #eeeeee;
+  letter-spacing: -0.01em;
+
+  color: #b5b7c0;
+}
+
+.table th:last-of-type {
+  padding: 15px 0;
+}
+
+.table td {
+  padding: 25px 50px 25px 0;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  border-bottom: 1px solid #eeeeee;
+  letter-spacing: -0.01em;
+
+  color: #292d32;
+}
+
+.table td:last-of-type {
+  padding: 25px 0;
+}

@@ -1,0 +1,28 @@
+.navListItem:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.navListItem {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  border-radius: 8px;
+}
+
+.navListText {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #9197b3;
+}
+
+.active {
+  background-color: #5932ea;
+}
+
+.active .navListText {
+  color: white;
+}

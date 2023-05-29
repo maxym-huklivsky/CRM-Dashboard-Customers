@@ -1,0 +1,25 @@
+.root {
+  display: flex;
+  gap: 12px;
+}
+
+.info {
+  display: inline-block;
+}
+
+.name {
+  display: block;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+
+  letter-spacing: 0.01em;
+}
+
+.position {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
