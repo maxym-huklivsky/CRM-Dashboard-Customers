@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-homework-template/static/css/main.4c485939.css",
+    "main.js": "/react-homework-template/static/js/main.0bc7e45f.js",
+    "static/media/discount-shape.svg": "/react-homework-template/static/media/discount-shape.5230029f4e637c534c143c4d95cf421f.svg",
+    "static/media/wallet-money.svg": "/react-homework-template/static/media/wallet-money.25d824b57e5c5a753432296807e7285d.svg",
+    "static/media/3d-square.svg": "/react-homework-template/static/media/3d-square.1ca4fd5b650bd0a4104c1a2789ca1171.svg",
+    "static/media/message-question.svg": "/react-homework-template/static/media/message-question.5d23912a887f9edc9d9f8d957ec960e6.svg",
+    "static/media/user-square.svg": "/react-homework-template/static/media/user-square.edc8c5fa28fddcff31e815248dea633c.svg",
+    "static/media/setting.svg": "/react-homework-template/static/media/setting.fe984a6cdb2ef8c5a0b69a7ef20deea3.svg",
+    "index.html": "/react-homework-template/index.html",
+    "static/media/key-square.svg": "/react-homework-template/static/media/key-square.153a0eb179be0548729792a4f21fc52e.svg",
+    "static/media/search.svg": "/react-homework-template/static/media/search.d555a35800fec6f7c1928aef95546ef7.svg",
+    "main.4c485939.css.map": "/react-homework-template/static/css/main.4c485939.css.map",
+    "main.0bc7e45f.js.map": "/react-homework-template/static/js/main.0bc7e45f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c485939.css",
+    "static/js/main.0bc7e45f.js"
+  ]
+}
