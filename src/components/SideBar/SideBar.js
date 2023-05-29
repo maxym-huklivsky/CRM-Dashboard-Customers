@@ -8,9 +8,11 @@ import './index.css';
 const SideBar = ({ activeSideBar }) => {
   const SideBarRef = React.useRef(null);
 
-  if (activeSideBar) {
+  if (activeSideBar && SideBarRef.current) {
     SideBarRef.current.classList.add('active');
-  } else {
+  }
+
+  if (!activeSideBar && SideBarRef.current) {
     SideBarRef.current.classList.remove('active');
   }
 
