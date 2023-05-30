@@ -12,13 +12,13 @@
 
   letter-spacing: -0.01em;
 
-  color: #000000;
+  color: var(--black-color);
 }
 
 .button.active {
-  background: #5932ea;
-  border: 1px solid #5932ea;
-  color: #ffffff;
+  background-color: var(--active-color);
+  border: 1px solid var(--active-color);
+  color: var(--bg-color);
 }
 
 .button {
@@ -32,9 +32,9 @@
 
   letter-spacing: -0.01em;
 
-  color: #404b52;
-  background: #f5f5f5;
-  border: 1px solid #eeeeee;
+  color: var(--pagination-color);
+  background-color: var(--pagination-bg-color);
+  border: 1px solid var(--border-color);
   border-radius: 4px;
 }
 

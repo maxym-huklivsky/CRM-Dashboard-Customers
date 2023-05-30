@@ -1,5 +1,6 @@
-import Status from 'components/Status/Status';
 import React from 'react';
+
+import Status from 'components/Status/Status';
 
 const CustomerRow = ({ name, company, phone, email, country, active }) => {
   return (

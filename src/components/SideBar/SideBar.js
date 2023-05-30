@@ -1,19 +1,21 @@
-import NavList from 'components/NavList/NavList';
 import React from 'react';
-import css from './SideBar.module.css';
+
+import NavList from 'components/NavList/NavList';
 import { ReactComponent as Setting } from '../../assets/setting.svg';
 import UserInfo from 'components/UserInfo/UserInfo';
-import './index.css';
+import css from './SideBar.module.css';
 
 const SideBar = ({ activeSideBar }) => {
   const SideBarRef = React.useRef(null);
 
   if (activeSideBar && SideBarRef.current) {
-    SideBarRef.current.classList.add('active');
+    SideBarRef.current.classList.add('active-menu');
+    document.body.classList.add('no-scroll');
   }
 
   if (!activeSideBar && SideBarRef.current) {
-    SideBarRef.current.classList.remove('active');
+    SideBarRef.current.classList.remove('active-menu');
+    document.body.classList.remove('no-scroll');
   }
 
   return (

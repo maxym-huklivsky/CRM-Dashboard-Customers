@@ -1,6 +1,21 @@
 @import-normalize;
 :root {
-  --bg-color: #fafbff;
+  --main-bg-color: #fafbff;
+  --bg-color: #ffffff;
+  --transition: 0.2s ease-in-out;
+  --active-color: #5932ea;
+  --shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+  --add-text: #838383;
+  --list-text-color: #9197b3;
+  --light-text-color: #b5b7c0;
+  --table-text-color: #292d32;
+  --user-info-text: #757575;
+  --green-text-color: #16c098;
+  --input-bg-color: #f9fbff;
+  --border-color: #eeeeee;
+  --pagination-color: #404b52;
+  --pagination-bg-color: #f5f5f5;
+  --black-color: #000000;
 }
 
 body {
@@ -10,8 +25,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--bg-color);
+  background-color: var(--main-bg-color);
   font-family: 'Poppins', sans-serif;
+}
+
+.active-menu {
+  transform: translateX(0);
+}
+
+@media screen and (max-width: 719px) {
+  body.no-scroll {
+    overflow: hidden;
+  }
 }
 
 *,

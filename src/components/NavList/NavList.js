@@ -1,5 +1,4 @@
 import React from 'react';
-import css from './NavList.module.css';
 
 import { ReactComponent as KeySquare } from '../../assets/key-square.svg';
 import { ReactComponent as ThreeDSquare } from '../../assets/3d-square.svg';
@@ -7,6 +6,7 @@ import { ReactComponent as UserSquare } from '../../assets/user-square.svg';
 import { ReactComponent as WalletMoney } from '../../assets/wallet-money.svg';
 import { ReactComponent as DiscountShape } from '../../assets/discount-shape.svg';
 import { ReactComponent as MessageQuestion } from '../../assets/message-question.svg';
+import css from './NavList.module.css';
 
 const NavList = () => {
   return (

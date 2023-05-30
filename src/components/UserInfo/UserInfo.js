@@ -1,7 +1,7 @@
 import React from 'react';
-import css from './UserInfo.module.css';
 
 import avatar from '../../assets/avatar.png';
+import css from './UserInfo.module.css';
 
 const UserInfo = () => {
   return (

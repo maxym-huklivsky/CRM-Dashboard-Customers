@@ -1,7 +1,7 @@
-import CustomerRow from 'components/CustomerRow/CustomerRow';
 import React from 'react';
-import customers from '../../customers.json';
 
+import CustomerRow from 'components/CustomerRow/CustomerRow';
+import customers from '../../customers.json';
 import css from './CustomersTable.module.css';
 
 const CustomersTable = ({ search }) => {

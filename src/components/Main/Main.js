@@ -1,7 +1,8 @@
+import React from 'react';
+
 import CustomersTable from 'components/CustomersTable/CustomersTable';
 import Pagination from 'components/Pagination/Pagination';
 import SearchBox from 'components/SearchBox/SearchBox';
-import React from 'react';
 import css from './Main.module.css';
 
 const Main = () => {
