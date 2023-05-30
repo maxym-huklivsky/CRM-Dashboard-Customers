@@ -23,22 +23,6 @@
   padding: 5px 0;
 }
 
-.table td {
-  padding: 15px 25px 15px 0;
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 21px;
-  border-bottom: 1px solid var(--border-color);
-  letter-spacing: -0.01em;
-
-  color: var(--table-text-color);
-}
-
-.table td:last-of-type {
-  padding: 15px 0;
-}
-
 @media screen and (min-width: 1100px) {
   .table th {
     padding: 15px 50px 15px 0;
@@ -46,13 +30,5 @@
 
   .table th:last-of-type {
     padding: 15px 0;
-  }
-
-  .table td {
-    padding: 25px 50px 15px 0;
-  }
-
-  .table td:last-of-type {
-    padding: 25px 0;
   }
 }

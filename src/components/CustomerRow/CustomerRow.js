@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Status from 'components/Status/Status';
+import css from './CustomerRow.module.css';
 
 const CustomerRow = ({ name, company, phone, email, country, active }) => {
   return (
