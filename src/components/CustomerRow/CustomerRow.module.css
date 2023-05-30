@@ -1,4 +1,4 @@
-td {
+.root td {
   padding: 15px 25px 15px 0;
 
   font-weight: 500;
@@ -10,16 +10,16 @@ td {
   color: var(--table-text-color);
 }
 
-td:last-of-type {
+.root td:last-of-type {
   padding: 15px 0;
 }
 
 @media screen and (min-width: 1100px) {
-  td {
+  .root td {
     padding: 25px 50px 15px 0;
   }
 
-  td:last-of-type {
+  .root td:last-of-type {
     padding: 25px 0;
   }
 }

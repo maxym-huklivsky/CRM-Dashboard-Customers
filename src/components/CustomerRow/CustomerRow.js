@@ -5,7 +5,7 @@ import css from './CustomerRow.module.css';
 
 const CustomerRow = ({ name, company, phone, email, country, active }) => {
   return (
-    <tr>
+    <tr className={css.root}>
       <td>{name}</td>
       <td>{company}</td>
       <td>{phone}</td>
