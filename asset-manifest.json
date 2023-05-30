@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CRM-Dashboard-Customers/static/css/main.4c485939.css",
-    "main.js": "/CRM-Dashboard-Customers/static/js/main.a9decccc.js",
+    "main.css": "/CRM-Dashboard-Customers/static/css/main.0b9c0e5d.css",
+    "main.js": "/CRM-Dashboard-Customers/static/js/main.dae54cc5.js",
     "static/media/discount-shape.svg": "/CRM-Dashboard-Customers/static/media/discount-shape.5230029f4e637c534c143c4d95cf421f.svg",
     "static/media/wallet-money.svg": "/CRM-Dashboard-Customers/static/media/wallet-money.25d824b57e5c5a753432296807e7285d.svg",
     "static/media/3d-square.svg": "/CRM-Dashboard-Customers/static/media/3d-square.1ca4fd5b650bd0a4104c1a2789ca1171.svg",
@@ -11,11 +11,11 @@
     "index.html": "/CRM-Dashboard-Customers/index.html",
     "static/media/key-square.svg": "/CRM-Dashboard-Customers/static/media/key-square.153a0eb179be0548729792a4f21fc52e.svg",
     "static/media/search.svg": "/CRM-Dashboard-Customers/static/media/search.d555a35800fec6f7c1928aef95546ef7.svg",
-    "main.4c485939.css.map": "/CRM-Dashboard-Customers/static/css/main.4c485939.css.map",
-    "main.a9decccc.js.map": "/CRM-Dashboard-Customers/static/js/main.a9decccc.js.map"
+    "main.0b9c0e5d.css.map": "/CRM-Dashboard-Customers/static/css/main.0b9c0e5d.css.map",
+    "main.dae54cc5.js.map": "/CRM-Dashboard-Customers/static/js/main.dae54cc5.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c485939.css",
-    "static/js/main.a9decccc.js"
+    "static/css/main.0b9c0e5d.css",
+    "static/js/main.dae54cc5.js"
   ]
 }
